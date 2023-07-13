@@ -49,12 +49,6 @@
     <Compile Include="controllers\ReservaLibroController.cs" />
     <Compile Include="controllers\UsuarioController.cs" />
     <Compile Include="database\SQLDatabase.cs" />
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
     <Compile Include="models\ReservaLibro.cs" />
     <Compile Include="models\Usuario.cs" />
     <Compile Include="Program.cs" />
@@ -67,15 +61,12 @@
     <Compile Include="views\MenuEmpleadoView.Designer.cs">
       <DependentUpon>MenuEmpleadoView.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\MenuUsuarioView.cs">
+    <Compile Include="MenuUsuarioView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\MenuUsuarioView.Designer.cs">
+    <Compile Include="MenuUsuarioView.Designer.cs">
       <DependentUpon>MenuUsuarioView.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -87,6 +78,9 @@
     </Compile>
     <EmbeddedResource Include="views\MenuEmpleadoView.resx">
       <DependentUpon>MenuEmpleadoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUsuarioView.resx">
+      <DependentUpon>MenuUsuarioView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -8,7 +8,7 @@ namespace Biblioteca.database
     {
         public static SqlConnection GetConnecion()
         {
-            const string url = "Data Source=localhost,1433 ; Initial Catalog=Biblio_Final; User ID=sa; Password=sql@pass-s3cur3";
+            const string url = "Server=YB-M\\YBM ; Database=Biblio_Final; Integrated Security=True;";
             try
             {
                 SqlConnection connection = new SqlConnection(url);

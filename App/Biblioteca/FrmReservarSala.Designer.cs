@@ -1,6 +1,6 @@
-﻿namespace Biblioteca.views
+﻿namespace Biblioteca
 {
-    partial class MenuUsuarioView
+    partial class FrmReservarSala
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "MenuUsuarioView";
+            SuspendLayout();
+            // 
+            // FrmReservarSala
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(1013, 626);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "FrmReservarSala";
+            Text = "Form2";
+            ResumeLayout(false);
         }
 
         #endregion
